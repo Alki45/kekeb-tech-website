@@ -37,7 +37,7 @@ export const leadership = [
     ],
     experience: "5+ years",
     email: "amanuel@kekebtech.com",
-    phone: "+251919312559",
+    phone: "+251919312589",
   },
   {
     id: 2,
