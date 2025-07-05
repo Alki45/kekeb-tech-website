@@ -408,7 +408,7 @@ export default function Contact() {
                 </CardContent>
                 <div className="mt-6 rounded-lg overflow-hidden shadow-md border border-gray-200">
                 <iframe
-                  src="https://maps.google.com/maps?q=9.027033,38.804943&z=16&output=embed"
+                  src="https://www.google.com/maps?q=Kokeb+Tech+Solution,+Kenenisa+Ave,+Addis+Ababa+8585&output=embed"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
