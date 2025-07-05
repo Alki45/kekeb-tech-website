@@ -90,7 +90,7 @@ export default function Contact() {
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent("Hello! I'm interested in your services. Can we discuss?")
-    window.open(`https://wa.me/251919312559?text=${message}`, "_blank")
+    window.open(`https://wa.me/251919312589?text=${message}`, "_blank")
   }
 
   const handleLocationClick = () => {
@@ -108,8 +108,8 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["+251 919 312 559", "+251 996 168 990", "+251 939 447 263"],
-      action: () => handleQuickCall("+251919312559"),
+      details: ["+251 919 312 589", "+251 996 168 990", "+251 939 447 263"],
+      action: () => handleQuickCall("+251919312589"),
       actionText: "Call Primary",
     },
     {
@@ -170,11 +170,11 @@ export default function Contact() {
                               <button
                                 onClick={(e) => {
                                   e.stopPropagation()
-                                  handleQuickCall("+251919312559")
+                                  handleQuickCall("+251919312589")
                                 }}
                                 className="block text-gray-600 text-sm hover:text-blue-600 transition-colors text-left"
                               >
-                                +251 919 312 559 (Primary)
+                                +251 919 312 589 (Primary)
                               </button>
                               <button
                                 onClick={(e) => {
@@ -245,11 +245,11 @@ export default function Contact() {
               {/* Quick Contact Actions */}
               <div className="mt-6 space-y-3">
                 <Button
-                  onClick={() => handleQuickCall("+251919312559")}
+                  onClick={() => handleQuickCall("+251919312589")}
                   className="w-full bg-green-600 hover:bg-green-700 text-white"
                 >
                   <Phone className="mr-2 h-4 w-4" />
-                  Call Now: +251 919 312 559
+                  Call Now: +251 919 312 589
                 </Button>
                 <Button onClick={handleWhatsApp} className="w-full bg-green-500 hover:bg-green-600 text-white">
                   💬 WhatsApp Chat

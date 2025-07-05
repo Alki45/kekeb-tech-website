@@ -88,7 +88,7 @@ export default function Hero() {
   }, [])
 
   const handleCallClick = useCallback(() => {
-    window.location.href = "tel:+251919312559"
+    window.location.href = "tel:+251919312589"
   }, [])
 
   const handleEmailClick = useCallback(() => {
@@ -410,7 +410,7 @@ export default function Hero() {
                 className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-full text-sm font-medium transition-all hover:scale-105 flex items-center w-full sm:w-auto"
               >
                 <Phone className="mr-2 h-4 w-4" />
-                Call Now: +251 919 312 559
+                Call Now: +251 919 312 589
               </Button>
               <Button
                 onClick={handleEmailClick}
