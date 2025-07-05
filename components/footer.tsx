@@ -1,7 +1,7 @@
 "use client"
 
 import { Star, Phone, Mail, MapPin, Clock, Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
-
+import StarLogo from "./ui/StarLogo"
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -21,10 +21,10 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <div className="relative">
-                <Star className="h-10 w-10 text-blue-400 animate-pulse" />
-                <div className="absolute inset-0 h-10 w-10 text-purple-400 animate-ping opacity-20">
-                  <Star className="h-10 w-10" />
-                </div>
+              <div className="relative">
+                <StarLogo width={60} height={60} />
+
+              </div>
               </div>
               <div>
                 <h3 className="text-xl font-bold">Kokeb Tech Solutions</h3>
