@@ -401,7 +401,23 @@ export default function Contact() {
                       )}
                     </Button>
                   </form>
+                
+
+
+
                 </CardContent>
+                <div className="mt-6 rounded-lg overflow-hidden shadow-md border border-gray-200">
+                <iframe
+                  src="https://maps.google.com/maps?q=9.027033,38.804943&z=16&output=embed"
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  title="Company Location"
+                ></iframe>
+              </div>
+
               </Card>
             </div>
           </div>
